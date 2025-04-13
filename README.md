@@ -54,6 +54,20 @@ docker buildx build <opciones>              # Construcción avanzada con buildx 
 
 ---
 
+## 📁 Volúmenes (Volumes)
+
+```bash
+docker volume create <nombre_volumen>                  # Crea un volumen con el nombre especificado
+docker volume ls                                       # Lista todos los volúmenes disponibles
+docker volume inspect <nombre_volumen>                 # Muestra detalles de un volumen
+docker volume rm <nombre_volumen>                      # Elimina un volumen
+
+# Asociar un volumen a un contenedor al ejecutarlo
+docker run -v <nombre_volumen>:/ruta/en/contenedor <imagen>     # Monta un volumen en el contenedor
+docker run -v $(pwd)/datos:/ruta/en/contenedor <imagen>         # Monta un directorio local como volumen
+```
+
+---
 ## 📌 Notas
 
 - Asegúrate de tener Docker instalado y corriendo antes de ejecutar los comandos.
