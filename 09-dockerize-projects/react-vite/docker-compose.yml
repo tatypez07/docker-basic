@@ -1,0 +1,8 @@
+services:
+  vite-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vite-app
+    ports:
+      - "8080:80"

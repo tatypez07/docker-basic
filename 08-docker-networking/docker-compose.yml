@@ -1,0 +1,22 @@
+services:
+  app:
+    build: ./app
+    image: myapp
+    container_name: myapp
+    networks:
+      - mynetwork
+  web:
+    build: ./web
+    image: myweb
+    container_name: myweb
+    networks:
+      - mynetwork
+  db:
+    build: ./db
+    image: mydb
+    container_name: mydb
+    networks:
+      - mynetwork
+    
+networks:
+  mynetwork:

@@ -1,0 +1,9 @@
+services:
+  app:
+    image: alpine
+    volumes:
+      - mydata:/data
+    command: ["sh", "-c", "echo Hello Volume > /data/hello.txt && cat /data/hello.txt"]
+
+volumes:
+  mydata:
