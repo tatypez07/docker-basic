@@ -1,0 +1,9 @@
+/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/out/DotNetApp
+/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/out/appsettings.Development.json
+/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/out/appsettings.json
+/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/out/DotNetApp.dll
+/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/out/DotNetApp.deps.json
+/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/out/DotNetApp.runtimeconfig.json
+/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/out/DotNetApp.pdb
+/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/out/Microsoft.AspNetCore.OpenApi.dll
+/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/out/Microsoft.OpenApi.dll
