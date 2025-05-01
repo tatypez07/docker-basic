@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JpKTzyfaIOA=",
+  "dgSpecHash": "cIWM/y7Xi+A=",
   "success": true,
-  "projectFilePath": "/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj",
+  "projectFilePath": "/Users/alvaroperez/Documents/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj",
   "expectedPackageFiles": [
     "/Users/alvaroperez/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "/Users/alvaroperez/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"

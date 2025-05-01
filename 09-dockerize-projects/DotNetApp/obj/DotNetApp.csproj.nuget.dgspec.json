@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj": {}
+    "/Users/alvaroperez/Documents/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj": {}
   },
   "projects": {
-    "/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj": {
+    "/Users/alvaroperez/Documents/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj",
+        "projectUniqueName": "/Users/alvaroperez/Documents/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj",
         "projectName": "DotNetApp",
-        "projectPath": "/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj",
+        "projectPath": "/Users/alvaroperez/Documents/docker-basic/09-dockerize-projects/DotNetApp/DotNetApp.csproj",
         "packagesPath": "/Users/alvaroperez/.nuget/packages/",
-        "outputPath": "/Users/alvaroperez/Desktop/docker-basic/09-dockerize-projects/DotNetApp/obj/",
+        "outputPath": "/Users/alvaroperez/Documents/docker-basic/09-dockerize-projects/DotNetApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/alvaroperez/.nuget/NuGet/NuGet.Config"
