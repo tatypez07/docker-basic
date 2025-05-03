@@ -1,0 +1,33 @@
+name: CI .NET + Remix
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '23'
+
+      - name: Install dependencies
+        working-directory: ./10-net9-remix-pg-env/Frontend
+        run: npm install
+
+      - name: Run tests
+        working-directory: ./10-net9-remix-pg-env/Frontend
+        run: npm test
+        
+      - name: Build
+        working-directory: ./10-net9-remix-pg-env/Frontend
+        run: npm run build
