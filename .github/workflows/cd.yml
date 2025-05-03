@@ -5,6 +5,7 @@ on:
     workflows: ["CI .NET + Remix"]
     types:
       - completed
+  workflow_dispatch:
 
 jobs:
   deploy: 
