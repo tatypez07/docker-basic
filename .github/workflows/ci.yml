@@ -46,6 +46,12 @@ jobs:
         working-directory: ./10-net9-remix-pg-env/Backend
         run: dotnet restore
 
+      - name: Run database migrations
+        working-directory: ./10-net9-remix-pg-env/Backend
+        run: dotnet ef database update
+        env:
+          ConnectionStrings__DefaultConnection: Host=localhost;Port=5432;Username=postgres;Password=password;Database=mydb
+
       - name: Build
         working-directory: ./10-net9-remix-pg-env/Backend
         run: dotnet build --configuration Release --no-restore
