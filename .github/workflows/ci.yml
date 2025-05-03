@@ -11,6 +11,9 @@ on:
 jobs:
   frontend:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [21, 22, 23]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -18,7 +21,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '23'
+          node-version: ${{ matrix.node-version }}
 
       - name: Install dependencies
         working-directory: ./10-net9-remix-pg-env/Frontend
@@ -27,7 +30,7 @@ jobs:
       - name: Run tests
         working-directory: ./10-net9-remix-pg-env/Frontend
         run: npm test
-        
+
       - name: Build
         working-directory: ./10-net9-remix-pg-env/Frontend
         run: npm run build
