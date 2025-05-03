@@ -3,8 +3,8 @@ name: CD Docker Deploy
 on:
   workflow_run:
     workflows: ["CI .NET + Remix"]
-    types: 
-    - completed
+    types:
+      - completed
 
 jobs:
   deploy: 
