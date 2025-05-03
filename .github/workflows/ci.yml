@@ -46,6 +46,12 @@ jobs:
         working-directory: ./10-net9-remix-pg-env/Backend
         run: dotnet restore
 
+      - name: Install EF Core CLI
+        run: dotnet tool install --global dotnet-ef
+        shell: bash
+        env:
+          DOTNET_ROOT: ${{ github.workspace }}/.dotnet
+          
       - name: Run database migrations
         working-directory: ./10-net9-remix-pg-env/Backend
         run: dotnet ef database update
