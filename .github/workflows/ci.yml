@@ -9,6 +9,50 @@ on:
       - main
 
 jobs:
+  backend:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dotnet-version: ['8.0.x', '9.0.x']
+    
+    services:
+      postgres:
+        image: postgres:15
+        ports:
+          - 5432:5432
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: password
+          POSTGRES_DB: mydb
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      DOTNET_VERSION: ${{ matrix.dotnet-version }}
+      ConnectionStrings__DefaultConnection: Host=localhost;Port=5432;Username=postgres;Password=password;Database=mydb
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: ${{ matrix.dotnet-version }}
+
+      - name: Install dependencies
+        working-directory: ./10-net9-remix-pg-env/Backend
+        run: dotnet restore
+
+      - name: Build
+        working-directory: ./10-net9-remix-pg-env/Backend
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Run tests
+        working-directory: ./10-net9-remix-pg-env/Backend
+        run: dotnet test --no-build --verbosity normal
+
   frontend:
     runs-on: ubuntu-latest
     strategy:
