@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    
     tools {
         dotnet 'dotnet-9'
     }
