@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        dotnet 'dotnet-9'
+    }
 
     stages {
         stage('Build') {
