@@ -42,7 +42,6 @@ pipeline {
         stage('Nodejs version'){
             steps {
                 script {
-                    sh 'node -v'
                     sh 'npm -v'
                 }
             }
