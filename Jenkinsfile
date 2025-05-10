@@ -3,6 +3,7 @@ pipeline {
     
     tools {
         dotnetsdk 'dotnet-9'
+        nodejs 'node-22'
     }
 
     stages {
@@ -38,6 +39,13 @@ pipeline {
                 }
             }
         } 
+        stage('Nodejs version'){
+            steps {
+                script {
+                    sh 'node -v'
+                }
+            }
+        }
     }
 
     post {
