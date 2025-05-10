@@ -43,6 +43,7 @@ pipeline {
             steps {
                 script {
                     sh 'node -v'
+                    sh 'npm -v'
                 }
             }
         }
