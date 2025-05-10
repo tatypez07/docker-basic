@@ -1,0 +1,14 @@
+Ž
+‚/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/obj/Debug/net9.0/Backend.MvcApplicationPartsAssemblyInfo.csutf-8z
+o/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/obj/Debug/net9.0/Backend.AssemblyInfo.csutf-8’
+†/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.csutf-8|
+q/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/obj/Debug/net9.0/Backend.GlobalUsings.g.csutf-8‚
+w/Users/alvaroperez/.nuget/packages/microsoft.net.test.sdk/17.13.0/build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.csutf-8^
+U/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/ProgramTest.csutf-8Z
+Q/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/Program.csutf-8a
+X/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/Models/Product.csutf-8y
+n/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/Migrations/AppDbContextModelSnapshot.csutf-8…
+z/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/Migrations/20250503184413_InitialCreate.Designer.csutf-8q
+h/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/Controllers/ProductsController.csutf-8d
+[/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/Data/AppDbContext.csutf-8z
+q/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/Migrations/20250503184413_InitialCreate.csutf-8

@@ -1,0 +1,1 @@
+/Users/alvaroperez/Documents/docker-basic/10-net9-remix-pg-env/Backend/.sonarqube/out/0
