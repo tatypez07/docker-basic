@@ -7,8 +7,8 @@ pipeline {
     }
 
     environment {
-        DOTNET_ROOT = "${env.PATH}:${tool 'dotnet-9'}/bin"
-        PATH = "${env.PATH}:${tool 'node-22'}/bin"
+        DOTNET_ROOT = "${tool 'dotnet-9'}"
+        PATH = "${env.PATH}:${tool 'dotnet-9'}/bin:${tool 'node-22'}/bin"
     }
 
     stages {
